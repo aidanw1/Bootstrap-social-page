@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Mount Rushmore",
+        "image": "/images/america-wonder.jpg",
+        "description": "Mount Rushmore National Memorial is centered on a sculpture carved into the granite face of Mount Rushmore in the Black Hills in Keystone, South Dakota, United States.",
+        "price": "120"
+    },
+    {
+        "id": 2,
+        "name": "Rome Colleseum",
+        "image": "/images/italy-wonder.jpg",
+        "description": "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy. Built of travertine limestone, tuff (volcanic rock), and brick-faced concrete,[1] it was the largest amphitheatre ever built at the time and held 50,000 to 80,000 spectators.",
+        "price": "100"
+    },
+    {
+        "id": 3,
+        "name": "One World Trade Center",
+        "image": "/images/newyork-wonder.jpg",
+        "description": "One World Trade Center is the main building of the rebuilt World Trade Center complex in Lower Manhattan, New York City. One WTC is the tallest building in the United States, the tallest building in the Western Hemisphere, and the seventh-tallest in the world.",
+        "price": "200"
+    },
+    {
+        "id": 4,
+        "name": "Petra Jordan",
+        "image": "/images/jordan-wonder.jpg",
+        "description": "Petra originally known to its inhabitants as Raqmu, is a historical and archaeological city in southern Jordan. Petra lies around Jabal Al-Madbah in a basin surrounded by mountains which form the eastern flank of the Arabah valley that runs from the Dead Sea to the Gulf of Aqaba.",
+        "price": "160"
+    }
+]

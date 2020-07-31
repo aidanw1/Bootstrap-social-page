@@ -1,0 +1,124 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+$bg-color: #333;
+$font-color: #fff;
+$primary-color: #008ed6;
+$dark-overlay: rgba(0, 0, 0, 0.7);
+$icon-size: 30px;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  background-color: $bg-color;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  color: $font-color;
+  h1 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+  }
+}
+
+.navbar {
+  border-bottom: $primary-color 3px solid;
+  opacity: 0.8;
+}
+
+.nav-items {
+  div {
+    color: white;
+  }
+
+  div:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+// .side-nav__item:not(:last-child)
+#home-section {
+  background: url("/img/home.jpg") no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .dark-overlay {
+    background-color: $dark-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+  }
+
+  .home-inner {
+    padding-top: 150px;
+  }
+
+  .card-form {
+    opacity: 0.8;
+  }
+
+  .fa {
+    color: $primary-color;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+#explore-head-section {
+  background-color: $bg-color;
+  color: white;
+}
+
+#explore-section,
+#share-section {
+  .tick-icon {
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+
+#create-section {
+  background: $bg-color;
+  color: white;
+  .tick-icon {
+    color: $primary-color;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+
+.tick-icon {
+  color: $primary-color;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 2rem;
+}
