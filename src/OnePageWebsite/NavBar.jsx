@@ -19,17 +19,17 @@ export default function NavBar() {
         <Nav className="ml-auto nav-items">
           <Nav.Item>
             <Nav.Link className="nav-link" href="/home">
-              <div>Explore</div>
+              <p>Explore</p>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link className="nav-link" href="/home">
-              <div>Create</div>
+              <p>Create</p>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link className="nav-link" href="/home">
-              <div>Share</div>
+              <p>Share</p>
             </Nav.Link>
           </Nav.Item>
         </Nav>
